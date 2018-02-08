@@ -92,6 +92,7 @@ h2 {
     width: 26%;
     height: 300px;
     margin-top: 50px;
+    position: relative;
 }
 
 .country-logo-wrapper {
@@ -102,4 +103,16 @@ h2 {
 .country-logo {
     max-width: 100%;
     max-height: 100%;
+}
+
+button {
+    color: red;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    visibility: hidden;
+}
+
+.single-country:hover button {
+    visibility: visible;
 }
